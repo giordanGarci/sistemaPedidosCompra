@@ -43,7 +43,7 @@ public class OrderItem {
 	}
 	
 	public String toString() {
-		return getProduct().getName() 
+		return product.getName() 
 				+ ", $" 
 				+ String.format("%.2f", price) 
 				+ ", Quantity: " 
